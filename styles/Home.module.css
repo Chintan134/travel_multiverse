@@ -968,13 +968,6 @@
 
 /* ---------- PRINT (for Download PDF) ---------- */
 
-@media print {
-  body,
-  .page {
-    background: #ffffff !important;
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
 
   .header {
     position: static !important;
