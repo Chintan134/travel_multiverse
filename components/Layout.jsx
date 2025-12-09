@@ -14,12 +14,13 @@ const Layout = ({ children }) => {
             href="/"
             className="flex items-center gap-3 hover:opacity-95 transition"
           >
-           <img
-              src="/logo.png"
-              alt="Travel Multiverse logo"
-              className="h-12 w-auto object-contain"
-              style={{ border: "3px solid red" }}
+          <Image
+                src={logo}
+                alt="Travel Multiverse logo"
+                className="h-12 w-auto object-contain"
+                priority
             />
+
 
             <span className="sr-only">Travel Multiverse</span>
           </Link>
