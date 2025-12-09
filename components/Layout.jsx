@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../public/logo1.png";
+import logo from "../public/logo.png";
 
 
 const Layout = ({ children }) => {
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
             className="flex items-center gap-3 hover:opacity-95 transition"
           >
           <Image
-                src={logo1}
+                src={logo}
                 alt="Travel Multiverse logo"
                 className="h-12 w-auto object-contain"
                 priority
